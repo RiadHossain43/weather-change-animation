@@ -90,7 +90,7 @@ button:hover{
 }
 .git-link{
     text-decoration: none;
-    color: orangered;
+    color: rgba(233,30,99 ,1);
 }
 .sun-moon{
     position: absolute;
