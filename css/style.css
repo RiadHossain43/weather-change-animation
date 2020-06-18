@@ -45,13 +45,18 @@ button{
     color: white;
     background-color: rgba(0,0,0,.5);
     font-size: 1rem;
+    overflow: hidden;
+    transition: .4s;
+    border: 1px solid rgba(216,27,96 ,1);
 }
 button:active{
     transform: scale(.9);
 }
 button:hover{
-    background-color:rgba(0,0,0,1) ;
+    background:rgba(216,27,96 ,1) ;
+    border: none;
 }
+
 .center-pos{
     position: absolute;
     left: 50%;
